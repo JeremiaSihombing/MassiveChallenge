@@ -10,9 +10,7 @@ import "aos/dist/aos.css";
 //import components
 import Navbar from "./components/Navbar"
 import App from './App.jsx'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
-import FormContact from './components/FormContact'
 
 //layout
 const UserLayout = () =>{
@@ -26,8 +24,6 @@ const UserLayout = () =>{
     <>
       <Navbar/>
       <Outlet/>
-      <Contact/>
-      <FormContact/>
       <Footer/>
     </>
   )
