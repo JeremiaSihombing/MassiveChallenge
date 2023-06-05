@@ -8,13 +8,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white sticky">
+    <nav className="bg-white sticky top-0">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <a href="/" className="text-black font-bold text-lg">
-              Exless
-            </a>
+           <img src="./src/assets/logo.png" alt="" />
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
@@ -29,6 +27,9 @@ const Navbar = () => {
               </a>
               <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 Blog 
+              </a>
+              <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
+                Community 
               </a>
               <a href="/contact" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 Contact
@@ -58,6 +59,9 @@ const Navbar = () => {
             </a>
             <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
               Blog
+            </a>
+            <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
+              Community
             </a>
             <a href="/contact" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
               Contact
