@@ -75,31 +75,40 @@ const Banner = () => {
 
         <button className="mx-auto w-[170px] p-[10px] text-[#f48c06] border-[2px] border-[#f48c06] rounded-[20px] font-bold">See More Feature</button>
 
-        <div className="w-[75%] mx-auto flex justify-center flex-col gap-y-[30px]">
+        <div className="w-[75%] mx-auto flex justify-center flex-col gap-y-[30px] ">
           <p className="text-4xl font-bold leading-[65px] text-center mb-[30px] text-[#020556]">Blog</p>
           <div className="flex gap-x-[30px]">
-            <div className="flex flex-col gap-y-[15px]">
-              <img className="w-[100%] rounded-[20px] max-h-[400px]" src="./src/assets/banner.png" />
-              <p className="text-[26px] font-bold text-justify">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
-              <p className="text-xl font-normal text-justify">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
+            <div className="flex flex-col gap-y-[15px] py-28">
+              <img className="" src="./src/assets/blog1.png" />
+              <p className="text-[26px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
+              <p className="text-xl font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
               <button className="text-left">Read More</button>
             </div>
 
             <div className="flex flex-col gap-y-[30px]">
-              <div className="flex gap-x-[0px]">
-                <img className="w-[50%] rounded-[20px] max-h-[400px]" src="./src/assets/banner.png" />
+              <div className="flex gap-3 ">
+                <img className="w-[280px] h-[200px]" src="./src/assets/blog2.png" />
                 <span className="flex flex-col gap-y-[10px]">
-                  <p className="text-[26px] font-bold text-justify">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
-                  <p className="text-xl font-normal text-justify">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
+                  <p className="text-[26px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
+                  <p className="text-xl font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
                   <button className="text-left">Read More</button>
                 </span>
               </div>
 
-              <div className="flex gap-x-[10px]">
-                <img className="w-[50%] rounded-[20px] max-h-[400px]" src="./src/assets/banner.png" />
+              <div className="flex gap-3 ">
+                <img className="w-[280px] h-[200px]" src="./src/assets/blog3.png" />
                 <span className="flex flex-col gap-y-[10px]">
-                  <p className="text-[26px] font-bold text-justify">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
-                  <p className="text-xl font-normal text-justify">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
+                  <p className="text-[26px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
+                  <p className="text-xl font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
+                  <button className="text-left border-[">Read More</button>
+                </span>
+              </div>
+
+              <div className="flex gap-3 ">
+                <img className="w-[280px] h-[200px]" src="./src/assets/blog3.png" />
+                <span className="flex flex-col gap-y-[10px]">
+                  <p className="text-[26px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
+                  <p className="text-xl font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
                   <button className="text-left">Read More</button>
                 </span>
               </div>
