@@ -109,12 +109,12 @@ const Banner = () => {
         </div>
 
         <div className="w-[75%] mx-auto flex gap-x-[30px]">
-          <div className="flex justify-center flex-col">
-            <p className="text-center">Save Food</p>
-            <p className="text-center">Save The Earth</p>
-            <img className="w-[50%] rounded-[20px]" src="./src/assets/banner.png" />
+          <div className="flex justify-center flex-col font-bold text-[50px]">
+            <p className="text-center text-[#F48C06] ">Rescue Food</p>
+            <p className="text-center text-[#020556]">Save The Earth</p>
+            <img className="w-[50%] mx-auto cursor-pointer" src="./src/assets/googleplay.png" />
           </div>
-          <img className="w-[50%]" src="./src/assets/banner.png" />
+          <img className="w-[50%]" src="./src/assets/hp.png" />
         </div>
 
         <div className="w-[75%] mx-auto flex justify-center flex-col"></div>
