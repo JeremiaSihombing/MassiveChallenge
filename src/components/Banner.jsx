@@ -4,12 +4,12 @@ const Banner = () => {
   return (
     <>
       <div className="flex justify-center py-24 mx-10">
-        <div className="w-1/2 p-4 mx-auto text-left pt-28 ">
+        <div className="w-1/2 p-4 mx-auto text-left pt-40">
           <h1 className="text-[35px] font-semibold ] " data-aos="fade-right">
             Reduce environmental impact, and ensure that food reaches what they need.
           </h1>
         </div>
-        <div className="w-1/2 p-4 pb-5 " data-aos="fade-left">
+        <div className="w-1/2 p-4 pb-32 " data-aos="fade-left">
           <img src="./src/assets/banner.png" alt="Gambar" className="w-auto h-auto " />
         </div>
       </div>
