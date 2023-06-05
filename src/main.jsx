@@ -6,6 +6,7 @@ import './index.css'
 //import components
 import Navbar from "./components/Navbar"
 import App from './App.jsx'
+import Contact from './components/Contact'
 import Footer from './components/footer'
 
 //layout
@@ -14,6 +15,7 @@ const UserLayout = () =>{
     <>
       <Navbar/>
       <Outlet/>
+      <Contact/>
       <Footer/>
     </>
   )
