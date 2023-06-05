@@ -6,6 +6,7 @@ import './index.css'
 //import components
 import Navbar from "./components/Navbar"
 import App from './App.jsx'
+import Footer from './components/footer'
 
 //layout
 const UserLayout = () =>{
@@ -13,6 +14,7 @@ const UserLayout = () =>{
     <>
       <Navbar/>
       <Outlet/>
+      <Footer/>
     </>
   )
 }

@@ -3,14 +3,14 @@ import React from 'react'
 const Footer =()=>{
     return (
       <>
-        <div className="bg-[#252641]">
-            <div className="text-white text-center font-bold">Exless</div>
-            <div className="flex text-white text-center ">
-                <span>Careers</span>
-                <span>Privacy Policy</span>
-                <span>Term and Condition</span>
-            </div>
-            
+        <div className="bg-[#252641] py-10">
+          <div className="text-white text-center font-bold text-[48px]">Exless</div>
+          <div className="flex text-[#B2B3CF] justify-center gap-5 ">
+            <span>Careers</span>
+            <span>Privacy Policy</span>
+            <span>Term and Condition</span>
+          </div>
+          <div className="text-center text-[#B2B3CF] ">© 2023 Exless</div>
         </div>
       </>
     );
