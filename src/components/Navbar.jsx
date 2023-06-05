@@ -8,11 +8,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white sticky z-50 top-0">
+    <nav className="bg-white sticky z-50 top-0" data-aos="fade-down" data-aos-once="true">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-           <img src="./src/assets/logo.png" alt="" />
+            <img src="./src/assets/logo.png" alt="" />
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
@@ -26,10 +26,10 @@ const Navbar = () => {
                 Feature
               </a>
               <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
-                Blog 
+                Blog
               </a>
               <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
-                Community 
+                Community
               </a>
               <a href="/contact" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 Contact

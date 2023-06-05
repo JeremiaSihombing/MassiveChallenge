@@ -31,7 +31,7 @@ const FormContact = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto mb-4">
+    <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto mb-4" data-aos="fade-left" data-aos-duration="1500">
       <div className="mb-4 mt-3">
         <label htmlFor="firstName" className="block mb-2 font-medium text-[#344054]">
           First Name
