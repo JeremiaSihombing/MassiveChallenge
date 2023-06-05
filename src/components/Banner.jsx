@@ -80,8 +80,8 @@ const Banner = () => {
           <div className="flex gap-x-[30px]">
             <div className="flex flex-col gap-y-[15px] py-28">
               <img className="" src="./src/assets/blog1.png" />
-              <p className="text-[26px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
-              <p className="text-xl font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
+              <p className="text-[20px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
+              <p className="text-[15px]  font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
               <button className="text-left">Read More</button>
             </div>
 
@@ -89,8 +89,8 @@ const Banner = () => {
               <div className="flex gap-3 ">
                 <img className="w-[280px] h-[200px]" src="./src/assets/blog2.png" />
                 <span className="flex flex-col gap-y-[10px]">
-                  <p className="text-[26px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
-                  <p className="text-xl font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
+                  <p className="text-[20px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
+                  <p className="text-[15px]  font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
                   <button className="text-left">Read More</button>
                 </span>
               </div>
@@ -98,8 +98,8 @@ const Banner = () => {
               <div className="flex gap-3 ">
                 <img className="w-[280px] h-[200px]" src="./src/assets/blog3.png" />
                 <span className="flex flex-col gap-y-[10px]">
-                  <p className="text-[26px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
-                  <p className="text-xl font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
+                  <p className="text-[20px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
+                  <p className="text-[15px]  font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
                   <button className="text-left border-[">Read More</button>
                 </span>
               </div>
@@ -107,8 +107,8 @@ const Banner = () => {
               <div className="flex gap-3 ">
                 <img className="w-[280px] h-[200px]" src="./src/assets/blog3.png" />
                 <span className="flex flex-col gap-y-[10px]">
-                  <p className="text-[26px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
-                  <p className="text-xl font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
+                  <p className="text-[20px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
+                  <p className="text-[15px] font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
                   <button className="text-left">Read More</button>
                 </span>
               </div>

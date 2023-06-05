@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Outlet, createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Outlet, createBrowserRouter, RouterProvider, Form } from 'react-router-dom'
 import './index.css'
 
 //import components
 import Navbar from "./components/Navbar"
 import App from './App.jsx'
 import Contact from './components/Contact'
-import Footer from './components/footer'
+import Footer from './components/Footer'
+import FormContact from './components/FormContact'
 
 //layout
 const UserLayout = () =>{
@@ -16,6 +17,7 @@ const UserLayout = () =>{
       <Navbar/>
       <Outlet/>
       <Contact/>
+      <Form/>
       <Footer/>
     </>
   )
