@@ -17,7 +17,7 @@ const UserLayout = () =>{
       <Navbar/>
       <Outlet/>
       <Contact/>
-      <Form/>
+      <FormContact/>
       <Footer/>
     </>
   )

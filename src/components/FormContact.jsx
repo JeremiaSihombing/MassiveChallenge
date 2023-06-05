@@ -31,45 +31,45 @@ const FormContact = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto">
-      <div className="mb-4">
-        <label htmlFor="firstName" className="block mb-2 font-bold">
-          Nama Depan
+    <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto mb-4">
+      <div className="mb-4 mt-3">
+        <label htmlFor="firstName" className="block mb-2 font-medium text-[#344054]">
+          First Name
         </label>
-        <input type="text" id="firstName" value={firstName} onChange={(e) => setFirstName(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded" />
+        <input type="text" id="firstName" placeholder="First Name" value={firstName} onChange={(e) => setFirstName(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded" />
       </div>
       <div className="mb-4">
-        <label htmlFor="lastName" className="block mb-2 font-bold">
-          Nama Belakang
+        <label htmlFor="lastName" className="block mb-2 font-medium text-[#344054]">
+          Last Name
         </label>
-        <input type="text" id="lastName" value={lastName} onChange={(e) => setLastName(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded" />
+        <input type="text" id="lastName" placeholder=" Last Name" value={lastName} onChange={(e) => setLastName(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded" />
       </div>
       <div className="mb-4">
-        <label htmlFor="email" className="block mb-2 font-bold">
+        <label htmlFor="email" className="block mb-2 font-medium text-[#344054]">
           Email
         </label>
-        <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded" />
+        <input type="email" id="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded" />
       </div>
       <div className="mb-4">
-        <label htmlFor="phone" className="block mb-2 font-bold">
-          No Handphone
+        <label htmlFor="phone" className="block mb-2 font-medium text-[#344054]">
+          Phone Number
         </label>
-        <input type="tel" id="phone" value={phone} onChange={(e) => setPhone(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded" />
+        <input type="tel" id="phone" placeholder=" Phone Number" value={phone} onChange={(e) => setPhone(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded" />
       </div>
       <div className="mb-4">
-        <label htmlFor="message" className="block mb-2 font-bold">
-          Pesan
+        <label htmlFor="message" className="block mb-2 font-medium text-[#344054]">
+          Message
         </label>
-        <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded"></textarea>
+        <textarea id="message" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)} className="w-full px-4 py-2 border border-gray-300 rounded"></textarea>
       </div>
       <div className="mb-4">
-        <label htmlFor="accept" className="flex items-center">
+        <label htmlFor="accept" className="flex items-center text-[#344054]">
           <input type="checkbox" id="accept" checked={accepted} onChange={(e) => setAccepted(e.target.checked)} className="mr-2" />
-          Saya setuju dengan syarat dan ketentuan
+          You agree to our friendly privacy policy.
         </label>
       </div>
-      <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-        Submit
+      <button type="submit" className="bg-[#f48c06]  hover:bg-blue-600 text-white font-medium py-2 px-4 rounded cursor-pointer block mx-auto">
+        Send Message
       </button>
     </form>
   );
