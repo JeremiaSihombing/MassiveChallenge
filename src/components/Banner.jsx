@@ -59,7 +59,7 @@ const Banner = () => {
             <p className="text-xl font-normal leading-[40px] text-justify">
               Our community fights food waste and strives to make a positive environmental impact. We rescue surplus food and distribute it to those in need. Through education and advocacy, we raise awareness and inspire change. Join us to reduce food waste and create a sustainable future.
             </p>
-            <button className="w-[110px] p-[10px] bg-[#f48c06] rounded-[20px] text-white">See More</button>
+            <button className="w-[110px] p-[10px] bg-[#f48c06] outline outline-1 rounded-[20px] text-white hover:bg-white hover:text-[#f48c06]">See More</button>
           </div>
           
         
