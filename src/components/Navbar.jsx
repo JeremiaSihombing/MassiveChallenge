@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <img src="./src/assets/logo.png" alt="" />
+            <img src="./public/logo.png" alt="" />
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
@@ -26,10 +26,10 @@ const Navbar = () => {
                 Feature
               </a>
               <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
-                Blog
+                Community
               </a>
               <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
-                Community
+                Blog
               </a>
               <a href="/contact" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 Contact
