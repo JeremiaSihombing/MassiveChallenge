@@ -1,4 +1,15 @@
 import React from "react";
+import About1 from "./public/About1.png";
+import About2 from "./public/About2.png";
+import Jumbotron from "./public/Banner.png";
+import Feature1 from "./public/feature1.png";
+import Feature2 from "./public/features2.png";
+import Feature3 from "./public/features3.png";
+import Blog1 from "./public/blog1.png";
+import Blog2 from "./public/blog2.png";
+import Blog3 from "./public/blog3.png";
+import Google from "./public/googleplay.png";
+import Hp from "./public/hp.png";
 
 const Banner = () => {
   return (
@@ -10,7 +21,7 @@ const Banner = () => {
           </h1>
         </div>
         <div className="w-1/2 p-4 pb-32 " data-aos="fade-left">
-          <img src="./public/banner.png" alt="Gambar" className="w-auto h-auto " />
+          <img src={Jumbotron} alt="Gambar" className="w-auto h-auto " />
         </div>
       </div>
 
@@ -24,8 +35,8 @@ const Banner = () => {
             communities.
           </p>
           <div className="w-[100%] flex gap-x-[30px]">
-            <img className="w-[50%] rounded-[20px]" data-aos="fade-right" data-aos-duration="2000" src="./public/about1.png" />
-            <img className="w-[50%] rounded-[20px]" data-aos="fade-left" data-aos-duration="2000" src="./public/about2.png" />
+            <img className="w-[50%] rounded-[20px]" data-aos="fade-right" data-aos-duration="2000" src={About1} />
+            <img className="w-[50%] rounded-[20px]" data-aos="fade-right" data-aos-duration="2000" src={About2} />
           </div>
         </div>
 
@@ -37,7 +48,7 @@ const Banner = () => {
             Create efficient food storage and reminders of food expiration.
           </p>
           <div className="w-[100%] flex gap-x-[30px]">
-            <img className="w-[50%] rounded-[20px]" src="./public/feature1.jpg" data-aos="right" />
+            <img className="w-[50%] rounded-[20px]" src={Feature1} data-aos="right" />
             <div className="text-xl font-normal leading-[40px] text-justify flex flex-col gap-[30px]" data-aos="right">
               <p className="text-4xl font-bold text-left text-[#020556]" data-aos="right">
                 Adding <span className="text-[#f48c06]">food ingredients</span> to storage
@@ -60,11 +71,11 @@ const Banner = () => {
               With the presence of Exless management in storing food materials does not need to ribet, because users can do management starting from the presentation of food materials and reminders of food expiration.
             </p>
           </div>
-          <img className="w-[50%] rounded-[20px]" src="./public/features2.png" />
+          <img className="w-[50%] rounded-[20px]" src={Feature2} />
         </div>
 
         <div className="w-[75%] mx-auto flex justify-center gap-x-[30px]">
-          <img className="w-[50%] rounded-[20px]" src="./public/features3.png" />
+          <img className="w-[50%] rounded-[20px]" src={Feature3} />
           <div className="flex flex-col gap-y-[30px]">
             <p className="text-4xl font-bold leading-[65px] text-[#020556]">
               Comm<span className="text-[#f48c06]">unity</span>
@@ -83,7 +94,7 @@ const Banner = () => {
           <p className="text-4xl font-bold leading-[65px] text-center mb-[30px] text-[#020556]">Blog</p>
           <div className="flex gap-x-[30px]">
             <div className="flex flex-col gap-y-[15px] py-28 " data-aos="fade-right">
-              <img className="" src="./public/blog1.png" />
+              <img className="" src={Blog1} />
               <p className="text-[20px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
               <p className="text-[15px]  font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
               <button className="text-left">Read More</button>
@@ -91,7 +102,7 @@ const Banner = () => {
 
             <div className="flex flex-col gap-y-[30px]" data-aos="fade-left">
               <div className="flex gap-3 ">
-                <img className="w-[280px] h-[200px]" src="./public/blog2.png" />
+                <img className="w-[280px] h-[200px]" src={Blog2} />
                 <span className="flex flex-col gap-y-[10px]">
                   <p className="text-[20px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
                   <p className="text-[15px]  font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
@@ -100,7 +111,7 @@ const Banner = () => {
               </div>
 
               <div className="flex gap-3 ">
-                <img className="w-[280px] h-[200px]" src="./public/blog3.png" data-aos="fade-left" />
+                <img className="w-[280px] h-[200px]" src={Blog3} data-aos="fade-left" />
                 <span className="flex flex-col gap-y-[10px]">
                   <p className="text-[20px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
                   <p className="text-[15px]  font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
@@ -109,7 +120,7 @@ const Banner = () => {
               </div>
 
               <div className="flex gap-3 ">
-                <img className="w-[280px] h-[200px]" src="./public/blog3.png" data-aos="fade-left" />
+                <img className="w-[280px] h-[200px]" src={Blog3} data-aos="fade-left" />
                 <span className="flex flex-col gap-y-[10px]">
                   <p className="text-[20px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
                   <p className="text-[15px] font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
@@ -125,9 +136,9 @@ const Banner = () => {
           <div className="flex justify-center flex-col font-bold text-[50px]">
             <p className="text-center text-[#F48C06] ">Rescue Food</p>
             <p className="text-center text-[#020556]">Save The Earth</p>
-            <img className="w-[50%] mx-auto cursor-pointer" src="./public/googleplay.png" />
+            <img className="w-[50%] mx-auto cursor-pointer" src={Google} />
           </div>
-          <img className="w-[50%]" data-aos="fade-left" src="./public/hp.png" />
+          <img className="w-[50%]" data-aos="fade-left" src={Hp} />
         </div>
 
         <div className="w-[75%] mx-auto flex justify-center flex-col"></div>
