@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "/public/logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,11 +9,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white sticky z-50 top-0" data-aos="fade-down" data-aos-once="true">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+    <nav className="bg-white w-full sticky z-50 top-0" data-aos="fade-down" data-aos-once="true">
+      <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-            <img src="./public/logo.png" alt="" />
+            <img src={Logo} alt="" />
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">

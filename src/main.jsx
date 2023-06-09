@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import Navbar from "./components/Navbar"
 import App from './App.jsx'
 import Footer from './components/Footer'
+import About from './components/About';
 
 //layout
 const UserLayout = () =>{
@@ -23,7 +24,9 @@ const UserLayout = () =>{
   return (
     <>
       <Navbar/>
+      
       <Outlet/>
+      
       <Footer/>
     </>
   )
