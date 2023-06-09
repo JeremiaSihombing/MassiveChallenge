@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Logo from "/public/logo.png";
-
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +12,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <img src={Logo} alt="" />
+            <img src="./public/logo.png" alt="" />
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
