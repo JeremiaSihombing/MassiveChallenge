@@ -1,15 +1,15 @@
 import React from "react";
-import About1 from "./public/About1.png";
-import About2 from "./public/About2.png";
-import Jumbotron from "./public/Banner.png";
-import Feature1 from "./public/feature1.png";
-import Feature2 from "./public/features2.png";
-import Feature3 from "./public/features3.png";
-import Blog1 from "./public/blog1.png";
-import Blog2 from "./public/blog2.png";
-import Blog3 from "./public/blog3.png";
-import Google from "./public/googleplay.png";
-import Hp from "./public/hp.png";
+import About1 from "/public/About1.png";
+import About2 from "/public/About2.png";
+import Jumbotron from "/public/Banner.png";
+import Feature1 from "/public/feature1.png";
+import Feature2 from "/public/features2.png";
+import Feature3 from "/public/features3.png";
+import Blog1 from "/public/blog1.png";
+import Blog2 from "/public/blog2.png";
+import Blog3 from "/public/blog3.png";
+import Google from "/public/googleplay.png";
+import Hp from "/public/hp.png";
 
 const Banner = () => {
   return (
