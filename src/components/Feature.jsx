@@ -1,7 +1,7 @@
 import React from 'react'
-import Feature1 from "/public/feature1.png";
-import Feature2 from "/public/Features2.png";
-import Feature3 from "/public/Features3.png";
+import feature1 from "../../public/feature1.jpg";
+import feature2 from "../../public/features2.png";
+import feature3 from "../../public/features3.png";
 
 const Feature = () => {
   return (
@@ -14,7 +14,7 @@ const Feature = () => {
           Create efficient food storage and reminders of food expiration.
         </p>
         <div className="w-[100%] flex gap-x-[30px]">
-          <img className="w-[50%] rounded-[20px]" src={Feature1} data-aos="right" />
+          <img className="w-[50%] rounded-[20px]" src={feature1} data-aos="right" />
           <div className="text-xl font-normal leading-[40px] text-justify flex flex-col gap-[30px]" data-aos="right">
             <p className="text-4xl font-bold text-left text-[#020556]" data-aos="right">
               Adding <span className="text-[#f48c06]">food ingredients</span> to storage
@@ -37,11 +37,11 @@ const Feature = () => {
             With the presence of Exless management in storing food materials does not need to ribet, because users can do management starting from the presentation of food materials and reminders of food expiration.
           </p>
         </div>
-        <img className="w-[50%] rounded-[20px]" src={Feature2} />
+        <img className="w-[50%] rounded-[20px]" src={feature2} />
       </div>
 
       <div className="w-[75%] mx-auto flex justify-center gap-x-[30px]">
-        <img className="w-[50%] rounded-[20px]" src={Feature3} />
+        <img className="w-[50%] rounded-[20px]" src={feature3} />
         <div className="flex flex-col gap-y-[30px]">
           <p className="text-4xl font-bold leading-[65px] text-[#020556]">
             Comm<span className="text-[#f48c06]">unity</span>

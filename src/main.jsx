@@ -4,14 +4,18 @@ import { Outlet, createBrowserRouter, RouterProvider, Form } from 'react-router-
 import './index.css'
 
 //import aos
-import AOS from "aos";
-import "aos/dist/aos.css";
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 //import components
-import Navbar from "./components/Navbar"
+import About from './components/About'
 import App from './App.jsx'
+import Blog from './components/Blog'
+import Contact from './components/Contact';
+import Feature from './components/Feature'
 import Footer from './components/Footer'
-import About from './components/About';
+import Navbar from "./components/Navbar"
+import NotFound from './components/NotFound'
 
 //layout
 const UserLayout = () =>{
@@ -40,9 +44,28 @@ const router = createBrowserRouter([
         path: '/',
         element: <App />,
       },
+      {
+        path: '/about',
+        element: <About />
+      },
+      {
+        path: '/blog',
+        element: <Blog />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
+      },
+      {
+        path: '/feature',
+        element: <Feature />
+      },
     ],
   },
-
+  {
+    path: '/*',
+    element: <NotFound />
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById("root")).render(

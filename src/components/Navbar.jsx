@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "/public/logo.png";
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,24 +18,24 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
-              <a href="/" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
+              <Link to="/" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 Home
-              </a>
-              <a href="/about" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
+              </Link>
+              <Link to="/about" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 About
-              </a>
-              <a href="/Feature" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
+              </Link>
+              <Link to="/feature" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 Feature
-              </a>
-              <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
+              </Link>
+              <Link to="/community" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 Community
-              </a>
-              <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
+              </Link>
+              <Link to="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 Blog
-              </a>
-              <a href="/contact" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
+              </Link>
+              <Link to="/contact" className="text-black hover:text-[#F48C06] hover:bg-transparent px-3 py-2 rounded-md text-lg font-medium">
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
           <div className="md:hidden">
@@ -49,24 +50,24 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="/" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
+            <Link to="/" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
               Home
-            </a>
-            <a href="/about" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
+            </Link>
+            <Link to="/about" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
               About
-            </a>
-            <a href="/feature" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
+            </Link>
+            <Link to="/feature" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
               Feature
-            </a>
-            <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
+            </Link>
+            <Link to="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
               Blog
-            </a>
-            <a href="/blog" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
+            </Link>
+            <Link to="/community" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
               Community
-            </a>
-            <a href="/contact" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
+            </Link>
+            <Link to="/contact" className="text-black hover:text-[#F48C06] hover:bg-transparent block px-3 py-2 rounded-md text-lg font-medium">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       )}
