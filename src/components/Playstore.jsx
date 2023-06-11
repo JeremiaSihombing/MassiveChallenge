@@ -1,5 +1,5 @@
 import React from 'react'
-import Googleplay from "/public/googleplay.png;
+import Googleplay from "/public/googleplay.png"
 import Hp from "/public/hp.png";
 
 const Playstore = () => {
