@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <>
       <div data-aos="fade-up">
-        <div className="text-[#020556] text-center font-bold text-[35px]">Contact Us</div>
+        <div className="text-[#020556] text-center font-bold text-[35px] pt-10">Contact Us</div>
         <div className="text-center mt-2 text-[#667085]">We’d love to hear from you. Please fill out this form.</div>
       </div>
       <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto mb-4" data-aos="fade-left" data-aos-duration="1500">

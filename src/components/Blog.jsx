@@ -5,7 +5,7 @@ import Blog3 from "/public/blog3.png";
 
 const Blog = () => {
   return (
-    <div className="flex flex-col gap-[130px]">
+    <div className="flex flex-col gap-[130px] pt-16">
       <div className="w-[75%] mx-auto flex justify-center flex-col gap-y-[30px] ">
         <p className="text-4xl font-bold leading-[65px] text-center mb-[30px] text-[#020556]">Blog</p>
         <div className="flex gap-x-[30px]">

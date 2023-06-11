@@ -4,7 +4,7 @@ import Hp from "/public/hp.png";
 
 const Playstore = () => {
   return (
-    <div className="flex flex-col gap-[130px]">
+    <div className="flex flex-col gap-[130px] pt-10">
       <div className="w-[75%] mx-auto flex gap-x-[30px]" data-aos="fade-right">
         <div className="flex justify-center flex-col font-bold text-[50px]">
           <p className="text-center text-[#F48C06] ">Rescue Food</p>

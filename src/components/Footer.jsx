@@ -3,7 +3,7 @@ import React from 'react'
 const Footer =()=>{
     return (
       <>
-        <div className="bg-[#252641] py-10">
+        <div className="bg-[#252641] py-10 bottom-0">
           <div className="text-white text-center font-bold text-[48px]">Exless</div>
           <div className="flex text-[#B2B3CF] justify-center gap-5 ">
             <span>Careers</span>
