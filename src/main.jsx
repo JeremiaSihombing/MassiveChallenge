@@ -16,6 +16,8 @@ import Feature from './components/Feature'
 import Footer from './components/Footer'
 import Navbar from "./components/Navbar"
 import NotFound from './components/NotFound'
+import Community from './components/Pages/Community'
+import Login from './components/Pages/Login'
 
 //layout
 const UserLayout = () =>{
@@ -60,11 +62,19 @@ const router = createBrowserRouter([
         path: '/feature',
         element: <Feature />
       },
+      {
+        path: '/community',
+        element: <Community />
+      },
     ],
   },
   {
     path: '/*',
     element: <NotFound />
+  },
+  {
+    path: '/admin_login',
+    element: <Login />
   },
 ])
 
