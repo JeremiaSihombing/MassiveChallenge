@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <>
+    <div className="bg-[#FAF3EC]">
       <div data-aos="fade-up bg-[#FAF3EC]">
         <div id="contact" className="text-[#020556] text-center font-bold text-[35px] pt-10">Contact Us</div>
         <div className="text-center mt-2 text-[#667085]">We’d love to hear from you. Please fill out this form.</div>
@@ -77,7 +77,7 @@ const Contact = () => {
           Send Message
         </button>
       </form>
-    </>
+    </div>
   );
 };
 
