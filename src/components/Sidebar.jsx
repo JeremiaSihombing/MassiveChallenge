@@ -1,4 +1,5 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
@@ -81,7 +82,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="container mx-auto mt-12">
-       
+      <Outlet />
       </div>
     </div>
   );
