@@ -38,11 +38,11 @@ const Feature = () => {
               With the presence of Exless management in storing food materials does not need to ribet, because users can do management starting from the presentation of food materials and reminders of food expiration.
             </p>
           </div>
-          <img className="w-[50%] rounded-[20px]" src={feature2} />
+          <img className="" src={feature2} />
         </div>
 
-        <div className="w-[75%] mx-auto flex justify-center gap-x-[30px]">
-          <img className="w-[50%] rounded-[20px]" src={feature3} />
+        <div className="w-[90%] mx-auto flex justify-center gap-x-10">
+          <img className="w-[600px] h-[500px]" src={feature3} />
           <div className="flex flex-col gap-y-[30px]">
             <p className="text-4xl font-bold leading-[65px] text-[#020556]">
               Comm<span className="text-[#f48c06]">unity</span>
@@ -54,7 +54,6 @@ const Feature = () => {
             <a href="/community">
               <button className="w-[110px] p-[10px] bg-[#f48c06] rounded-[20px] text-white hover:bg-white hover:text-[#f48c06] hover:ring-[#f48c06]">See More</button>
             </a>
-            <button className="mx-auto w-[170px] p-[10px] text-[#f48c06] border-[2px] border-[#f48c06] rounded-[20px] font-bold">See More Feature</button>
           </div>
         </div>
       </div>
