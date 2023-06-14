@@ -19,6 +19,8 @@ import ManageAccount from './pages/admin/ManageAccount'
 import ManageArticle from './pages/admin/ManageArticle'
 import ManageCommunity from './pages/admin/ManageCommunity'
 import ManageVideo from './pages/admin/ManageVideo'
+import Article from './components/Article'
+
 
 const router = createBrowserRouter([
   {
@@ -52,10 +54,10 @@ const router = createBrowserRouter([
         path: '/community',
         element: <Community />
       },
-      // {
-      //   path: '/artikel',
-      //   element: <Community />
-      // },
+      {
+        path: '/article',
+        element: <Article />
+      },
     ],
   },
   {
