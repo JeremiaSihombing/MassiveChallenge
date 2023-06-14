@@ -26,6 +26,7 @@ const AdminLayout = () => {
   return (
     <>
       <Sidebar />
+      <Outlet />
     </>
   )
 }
