@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import feature1 from "../../public/feature1.jpg";
 import feature2 from "../../public/features2.png";
 import feature3 from "../../public/features3.png";
@@ -42,7 +42,7 @@ const Feature = () => {
         </div>
 
         <div className="w-[75%] mx-auto flex justify-center gap-x-[100px]">
-          <img className="w-[50%] rounded-[20px]" src={feature3} />
+          <img className="w-[600px] h-[400px]" src={feature3} />
           <div className="flex flex-col gap-y-[30px]">
             <p className="text-4xl font-bold leading-[65px] text-[#020556]">
               Comm<span className="text-[#f48c06]">unity</span>
@@ -59,6 +59,6 @@ const Feature = () => {
       </div>
     </>
   );
-}
+};
 
-export default Feature
+export default Feature;
