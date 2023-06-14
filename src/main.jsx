@@ -18,6 +18,17 @@ import Navbar from "./components/Navbar"
 import NotFound from './components/NotFound'
 import Community from './components/Pages/Community'
 import Login from './components/Pages/Login'
+import Sidebar from './components/Admin/Layouts/Sidebar'
+import Dashboard from './components/Admin/Pages/Dashboard'
+
+//admin layout
+const AdminLayout = () => {
+  return (
+    <>
+      <Sidebar />
+    </>
+  )
+}
 
 //layout
 const UserLayout = () =>{
@@ -66,6 +77,18 @@ const router = createBrowserRouter([
         path: '/community',
         element: <Community />
       },
+    ],
+  },
+  {
+    element:<AdminLayout />,
+    children: [
+      {
+        path: '/dashboard',
+        element: <Dashboard />,
+      },
+      {
+        path: '/community_admin',
+      }
     ],
   },
   {

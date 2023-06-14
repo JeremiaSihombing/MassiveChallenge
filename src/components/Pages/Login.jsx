@@ -11,7 +11,7 @@ const Login = () => {
                 <div className="w-[500px] h-fit bg-[#1A4D2E] rounded-3xl text-white flex flex-col items-center justify-start p-8 gap-4">
                     <h1 className="font-semibold text-4xl">ADMIN LOGIN</h1>
                     <img src={User} height={115} width={115} alt="user" />
-                    <form className="flex flex-col gap-4" action="">
+                    <form className="flex flex-col gap-4" action="/dashboard">
                         <FormInput type='input' id='username' title='Username' />
                         <FormInput type='password' id='password' title='Password' />
                         <div className="w-full flex justify-center">
