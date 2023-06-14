@@ -15,7 +15,10 @@ import Community from './pages/user/Community'
 import Login from './pages/auth/Login'
 import Dashboard from './pages/admin/Dashboard'
 import OtherBlog from './components/OtherBlog'
-
+import ManageAccount from './pages/admin/ManageAccount'
+import ManageArticle from './pages/admin/ManageArticle'
+import ManageCommunity from './pages/admin/ManageCommunity'
+import ManageVideo from './pages/admin/ManageVideo'
 
 const router = createBrowserRouter([
   {
@@ -63,8 +66,21 @@ const router = createBrowserRouter([
         element: <Dashboard />,
       },
       {
-        path: '/community_admin',
-      }
+        path: '/manage_account',
+        element: <ManageAccount />
+      },
+      {
+        path: '/manage_community',
+        element: <ManageCommunity />
+      },
+      {
+        path: '/manage_video',
+        element: <ManageVideo />
+      },
+      {
+        path: '/manage_article',
+        element: <ManageArticle />
+      },
     ],
   },
   {

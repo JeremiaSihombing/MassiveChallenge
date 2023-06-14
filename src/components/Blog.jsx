@@ -45,7 +45,9 @@ const Blog = () => {
             </div>
           </div>
         </div>
+        <a href="/otherblog" className='mx-auto'>
         <button className="mx-auto w-[170px] p-[10px] text-[#f48c06] border-[2px] border-[#f48c06] rounded-[20px] font-bold">See more Blog</button>
+        </a>
       </div>
     </div>
   );
