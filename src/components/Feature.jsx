@@ -8,10 +8,10 @@ const Feature = () => {
     <>
       <div className="flex flex-col gap-[130px] pt-10">
         <div className="w-[75%] mx-auto flex justify-center flex-col gap-y-[30px]">
-          <p className="text-4xl font-bold leading-[65px] text-center " data-aos="fade-up">
+          <p className="text-4xl font-bold  text-center " data-aos="fade-up">
             <span className="text-[#f48c06]">Exless</span> <span className="text-[#020556]">Feature</span>
           </p>
-          <p className="text-xl font-normal leading-[40px] text-center text-[#696984]" data-aos="down" data-aos-duration="1500">
+          <p className="text-xl font-normal  text-center text-[#696984]" data-aos="down" data-aos-duration="1500">
             Create efficient food storage and reminders of food expiration.
           </p>
           <div className="w-[100%] flex gap-x-[30px]">
@@ -41,8 +41,8 @@ const Feature = () => {
           <img className="" src={feature2} />
         </div>
 
-        <div className="w-[90%] mx-auto flex justify-center gap-x-10">
-          <img className="w-[600px] h-[500px]" src={feature3} />
+        <div className="w-[75%] mx-auto flex justify-center gap-x-[100px]">
+          <img className="w-[50%] rounded-[20px]" src={feature3} />
           <div className="flex flex-col gap-y-[30px]">
             <p className="text-4xl font-bold leading-[65px] text-[#020556]">
               Comm<span className="text-[#f48c06]">unity</span>
