@@ -49,6 +49,10 @@ const router = createBrowserRouter([
         path: '/community',
         element: <Community />
       },
+      // {
+      //   path: '/artikel',
+      //   element: <Community />
+      // },
     ],
   },
   {
