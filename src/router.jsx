@@ -14,6 +14,7 @@ import NotFound from './components/NotFound'
 import Community from './pages/user/Community'
 import Login from './pages/auth/Login'
 import Dashboard from './pages/admin/Dashboard'
+import OtherBlog from './components/OtherBlog'
 
 
 const router = createBrowserRouter([
@@ -32,10 +33,10 @@ const router = createBrowserRouter([
         path: '/blog',
         element: <Blog />
       },
-      // {
-      //   path: '/otherblog',
-      //   element: 
-      // },
+      {
+        path: '/otherblog',
+        element: <OtherBlog/>
+      },
       {
         path: '/contact',
         element: <Contact />
