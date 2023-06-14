@@ -5,10 +5,9 @@ import Sidebar from '../components/Sidebar'
 
 const AdminLayout = () => {
   return (
-    <>
+    <React.Fragment className='flex'>
       <Sidebar />
-      <Outlet />
-    </>
+    </React.Fragment>
   )
 }
 
