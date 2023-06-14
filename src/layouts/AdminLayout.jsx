@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 
 const AdminLayout = () => {
   return (
-    <React.Fragment className='flex'>
+    <React.Fragment className='flex bg-[#f5f5f5]'>
       <Sidebar />
     </React.Fragment>
   )

@@ -6,7 +6,7 @@ import feature3 from "../../public/features3.png";
 const Feature = () => {
   return (
     <>
-      <div id="feature" className="flex flex-col gap-[130px] pt-10">
+      <div id="feature" className="flex flex-col gap-[130px] pt-10 bg-[#FAF3EC]">
         <div className="w-[75%] mx-auto flex justify-center flex-col gap-y-[30px]">
           <p className="text-4xl font-bold  text-center " data-aos="fade-up">
             <span className="text-[#f48c06]">Exless</span> <span className="text-[#020556]">Feature</span>

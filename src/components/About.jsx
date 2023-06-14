@@ -4,7 +4,7 @@ import About2 from "/public/about2.png";
 
 const About = () => {
   return (
-    <div id="about" className="flex flex-col gap-[130px] pb-16">
+    <div id="about" className="flex flex-col gap-[130px] pb-16 bg-[#FAF3EC]">
       <div className="w-[75%] mx-auto flex justify-center flex-col gap-y-[30px]">
         <p className="text-4xl font-bold leading-[65px] text-center text-[#020556]" data-aos="fade-up">
           What is <span className="text-[#f48c06]">Exless?</span>
