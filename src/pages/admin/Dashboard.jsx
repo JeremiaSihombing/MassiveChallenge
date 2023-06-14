@@ -1,4 +1,4 @@
-import Background from '../../../assets/bglogin.jpg'
+import Background from '../../assets/bglogin.jpg'
 
 const Dashboard = () => {
     return (

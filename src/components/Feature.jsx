@@ -6,7 +6,7 @@ import feature3 from "../../public/features3.png";
 const Feature = () => {
   return (
     <>
-      <div className="flex flex-col gap-[130px] pt-10">
+      <div id="feature" className="flex flex-col gap-[130px] pt-10">
         <div className="w-[75%] mx-auto flex justify-center flex-col gap-y-[30px]">
           <p className="text-4xl font-bold  text-center " data-aos="fade-up">
             <span className="text-[#f48c06]">Exless</span> <span className="text-[#020556]">Feature</span>
@@ -41,7 +41,7 @@ const Feature = () => {
           <img className="" src={feature2} />
         </div>
 
-        <div className="w-[75%] mx-auto flex justify-center gap-x-[100px]">
+        <div id="community" className="w-[75%] mx-auto flex justify-center gap-x-[100px]">
           <img className="w-[600px] h-[400px]" src={feature3} />
           <div className="flex flex-col gap-y-[30px]">
             <p className="text-4xl font-bold leading-[65px] text-[#020556]">
