@@ -15,6 +15,7 @@ import Community from './pages/user/Community'
 import Login from './pages/auth/Login'
 import Dashboard from './pages/admin/Dashboard'
 import OtherBlog from './components/OtherBlog'
+import Article from './components/Article'
 
 
 const router = createBrowserRouter([
@@ -49,10 +50,10 @@ const router = createBrowserRouter([
         path: '/community',
         element: <Community />
       },
-      // {
-      //   path: '/artikel',
-      //   element: <Community />
-      // },
+      {
+        path: '/article',
+        element: <Article />
+      },
     ],
   },
   {
