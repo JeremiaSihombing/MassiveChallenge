@@ -5,11 +5,11 @@ import AddButton from '../../utilities/AddButton'
 function ManageVideo() {
   return (
     <div>
-      <PageTitle title='Manage Video' />
-      <AddButton text='Video' />
-
+      <PageTitle title="Manage Video" />
+      <AddButton text="Video" />
+     
     </div>
-  )
+  );
 }
 
 export default ManageVideo
