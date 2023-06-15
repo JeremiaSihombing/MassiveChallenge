@@ -8,7 +8,7 @@ import PageTitle from "../../utilities/PageTitle"
 const Dashboard = () => {
     return (
         <div className="max-w-[1024px] bg-[#f5f5f5]">
-            <div className="title flex flex-col gap-2 mb-8">
+            <div className="title flex flex-col mb-8">
                 <PageTitle title='Dashboard' />
                 <p>Halo, Admin <b>Jeki</b></p>
             </div>
