@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
-    <div className="flex">
+    <div className="flex gap-8">
       <div className="flex flex-col h-screen p-3 bg-white shadow w-60">
         <div className="space-y-3">
           <div className="flex items-center">
@@ -82,7 +82,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="container mx-auto mt-12 bg-[#f5f5f5]">
-      <Outlet />
+        <Outlet />
       </div>
     </div>
   );
