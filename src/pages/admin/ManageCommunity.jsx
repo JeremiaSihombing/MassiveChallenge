@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "../../utilities/PageTitle";
 import AddButton from "../../utilities/AddButton";
-import { Table } from "react-daisyui";
+
 
 function ManageCommunity() {
   return (
