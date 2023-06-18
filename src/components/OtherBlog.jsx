@@ -73,7 +73,9 @@ const OtherBlog = () => {
             <div className="flex flex-col">
               <h2 className="text-xl font-bold mb-2">{blog.title}</h2>
               <p className="text-gray-700 text-justify text-ellipsis overflow-hidden">{blog.description}</p>
-              <button className="bg-[#f48c06] text-white w-[100px] h-[40px] rounded-xl hover:bg-[#252641] text-white">Read More</button>
+              <button className="bg-[#f48c06] text-white w-[100px] h-[40px] rounded-xl hover:bg-[#252641] text-white">
+                <a href="/article">Read More</a>{" "}
+              </button>
             </div>
           </div>
         ))}

@@ -31,7 +31,7 @@ const Blog = () => {
               <span className="flex flex-col gap-y-[10px]">
                 <p className="text-[20px] font-bold text-justify text-[#252641]">Tackling the Global Food Waste Crisis: Solutions for a Sustainable Future</p>
                 <p className="text-[15px]  font-normal text-justify text-[#696984]">In this article, we explore the serious problems facing the world in terms of excessive food waste....</p>
-                <button className="text-left border-[">Read More</button>
+                <button className="text-left ">Read More</button>
               </span>
             </div>
 
@@ -45,8 +45,10 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <a href="/otherblog" className='mx-auto'>
-        <button className="mx-auto w-[170px] p-[10px] text-[#f48c06] border-[2px] border-[#f48c06] rounded-[20px] font-bold">See more Blog</button>
+        <a href="/otherblog" className="mx-auto">
+          <button className="mx-auto w-[170px] p-[10px] text-[#f48c06] border-[2px] border-[#f48c06] rounded-[20px] font-bold">
+            <a href="/otherblog">Read More</a>{" "}
+          </button>
         </a>
       </div>
     </div>
