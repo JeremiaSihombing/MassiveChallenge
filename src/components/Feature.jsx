@@ -56,6 +56,9 @@ const Feature = () => {
             </a>
           </div>
         </div>
+        <a href="/video">
+          <button className=" py-4 px-8 bg-[#f48c06] rounded-[20px] text-white hover:bg-white hover:text-[#f48c06] hover:ring-[#f48c06] mx-auto block">See More Feature</button>
+        </a>
       </div>
     </>
   );

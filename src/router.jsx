@@ -20,6 +20,7 @@ import ManageArticle from './pages/admin/ManageArticle'
 import ManageCommunity from './pages/admin/ManageCommunity'
 import ManageVideo from './pages/admin/ManageVideo'
 import Article from './components/Article'
+import Video from './components/Video'
 
 
 const router = createBrowserRouter([
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: '/article',
         element: <Article />
+      },
+      {
+        path: '/video',
+        element: <Video/>
       },
     ],
   },
