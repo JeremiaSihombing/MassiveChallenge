@@ -21,6 +21,7 @@ import ManageCommunity from './pages/admin/ManageCommunity'
 import ManageVideo from './pages/admin/ManageVideo'
 import Article from './components/Article'
 import Video from './components/Video'
+import LibraryArticle from './components/LibraryArticle'
 
 
 const router = createBrowserRouter([
@@ -28,76 +29,80 @@ const router = createBrowserRouter([
     element: <UserLayout />,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <LandingPage />,
       },
       {
-        path: '/about',
-        element: <About />
+        path: "/about",
+        element: <About />,
       },
       {
-        path: '/blog',
-        element: <Blog />
+        path: "/blog",
+        element: <Blog />,
       },
       {
-        path: '/otherblog',
-        element: <OtherBlog/>
+        path: "/otherblog",
+        element: <OtherBlog />,
       },
       {
-        path: '/contact',
-        element: <Contact />
+        path: "/contact",
+        element: <Contact />,
       },
       {
-        path: '/feature',
-        element: <Feature />
+        path: "/feature",
+        element: <Feature />,
       },
       {
-        path: '/community',
-        element: <Community />
+        path: "/community",
+        element: <Community />,
       },
       {
-        path: '/article',
-        element: <Article />
+        path: "/article",
+        element: <Article />,
       },
       {
-        path: '/video',
-        element: <Video/>
+        path: "/video",
+        element: <Video />,
+      },
+      {
+        path: "/libraryarticle",
+        element: <LibraryArticle />,
       },
     ],
   },
   {
-    element:<AdminLayout />,
+    element: <AdminLayout />,
     children: [
       {
-        path: '/dashboard',
+        path: "/dashboard",
         element: <Dashboard />,
       },
       {
-        path: '/manage_account',
-        element: <ManageAccount />
+        path: "/manage_account",
+        element: <ManageAccount />,
       },
       {
-        path: '/manage_community',
-        element: <ManageCommunity />
+        path: "/manage_community",
+        element: <ManageCommunity />,
       },
       {
-        path: '/manage_video',
-        element: <ManageVideo />
+        path: "/manage_video",
+        element: <ManageVideo />,
       },
       {
-        path: '/manage_article',
-        element: <ManageArticle />
+        path: "/manage_article",
+        element: <ManageArticle />,
       },
     ],
   },
   {
-    path: '/*',
-    element: <NotFound />
+    path: "/*",
+    element: <NotFound />,
   },
   {
-    path: '/admin_login',
-    element: <Login />
+    path: "/admin_login",
+    element: <Login />,
   },
-])
+]);
 
 export default router
