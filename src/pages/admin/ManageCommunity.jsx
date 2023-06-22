@@ -74,7 +74,7 @@ const ManageCommunity = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div>
+    <>
       <PageTitle title="Manage Community" />
       <div className="flex justify-between py-3">
         <AddButton text="Community" />
@@ -149,22 +149,22 @@ const ManageCommunity = () => {
           </div>
         )}
 
-        {/* Pagination */}
-        <div className="flex justify-center my-4">
-          {data.length > itemsPerPage && (
-            <ul className="flex border border-gray-300 rounded">
-              {Array(Math.ceil(data.length / itemsPerPage))
-                .fill()
-                .map((_, index) => (
-                  <li key={index} className={`cursor-pointer px-4 py-2 border-r ${currentPage === index + 1 ? "bg-gray-200" : "bg-white hover:bg-gray-100"}`} onClick={() => paginate(index + 1)}>
-                    {index + 1}
-                  </li>
-                ))}
-            </ul>
-          )}
+        <div className="flex items-center justify-end">
+          <div className="flex mt-4">
+            {data.length > itemsPerPage && (
+              <div className="flex">
+                <button onClick={() => paginate(currentPage - 1)} disabled={currentPage === 1} className="py-2 px-4 border border-gray-300 rounded-l">
+                  Previous
+                </button>
+                <button onClick={() => paginate(currentPage + 1)} disabled={indexOfLastItem >= data.length} className="py-2 px-4 border border-gray-300 rounded-r">
+                  Next
+                </button>
+              </div>
+            )}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
