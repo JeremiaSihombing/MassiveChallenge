@@ -60,20 +60,20 @@ const { email, password, role } = req.body
 
 const getAll = async (req, res) => {
   try {
-    // Ambil data UID admin dari Realtime Database
+
     const snapshot = await fdb.ref('/Admin').once('value');
     const adminUIDs = snapshot.val();
 
-    // Dapatkan daftar pengguna dari Firebase Authentication
+
     const userRecords = await admin.auth().listUsers();
     const users = userRecords.users.filter((user) => {
-      // Periksa apakah UID pengguna ada dalam tabel admin
+
       return !adminUIDs[user.uid];
     }).map((user) => ({
       uid: user.uid,
       email: user.email,
       displayName: user.displayName
-      // tambahkan properti lain yang ingin Anda ambil dari data akun
+
     }));
 
     res.json(users);

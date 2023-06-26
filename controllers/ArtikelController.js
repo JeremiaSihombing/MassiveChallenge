@@ -4,7 +4,7 @@ const getAll = (req, res) => {
   const dbRef = fdb.ref('/Artikel');
   
   dbRef.once('value', (snapshot) => {
-    // const data = snapshot.val();
+
     res.json(snapshot);
   });
   
