@@ -21,7 +21,30 @@ import ManageCommunity from './pages/admin/ManageCommunity'
 import ManageVideo from './pages/admin/ManageVideo'
 import Article from './components/Article'
 import Video from './components/Video'
-import LibraryArticle from './components/LibraryArticle'
+// import LibraryArticle from './components/LibraryArticle'
+
+import Yt from './Yt'
+import AddVideo from './pages/admin/video/AddVideo'
+
+// User
+import AddUser from './pages/admin/user/AddUser'
+import UserData from './pages/admin/user/UserData'
+
+// video
+import VideoData from './pages/admin/video/VideoData'
+import EditVideo from './pages/admin/video/EditVideo'
+
+// Artikel
+import ArtikelData from './pages/admin/artikel/ArtikelData'
+import AddArtikel from './pages/admin/artikel/AddArtikel'
+import EditArtikel from './pages/admin/artikel/EditArtikel'
+
+// Community
+import AddCommunity from './pages/admin/community/AddCommunity'
+import CommunityData from './pages/admin/community/CommunityData'
+
+// auth
+import Logins from './pages/auth/Logins'
 
 
 const router = createBrowserRouter([
@@ -64,10 +87,10 @@ const router = createBrowserRouter([
         path: "/video",
         element: <Video />,
       },
-      {
+   /*   {
         path: "/libraryarticle",
         element: <LibraryArticle />,
-      },
+      }, */
     ],
   },
   {
@@ -93,6 +116,46 @@ const router = createBrowserRouter([
         path: "/manage_article",
         element: <ManageArticle />,
       },
+      {
+        path: "/data/user",
+        element: <UserData />,
+      },
+      {
+        path: "/data/user/add",
+        element: <AddUser />,
+      },
+      {
+        path: '/data/video',
+        element: <VideoData />
+      },
+      {
+        path: 'add/video',
+        element: <AddVideo />
+      },
+      {
+        path: '/data/video/edit/:id',
+        element: <EditVideo />
+      },
+      {
+        path: '/data/artikel',
+        element: <ArtikelData />
+      },
+      {
+        path: '/data/artikel/add',
+        element: <AddArtikel />
+      },
+      {
+        path: '/data/artikel/edit/:id',
+        element: <EditArtikel />
+      },
+      {
+        path: '/data/community',
+        element: <CommunityData />
+      },
+      {
+        path: '/data/community/add',
+        element: <AddCommunity />
+      },
     ],
   },
   {
@@ -103,6 +166,16 @@ const router = createBrowserRouter([
     path: "/admin_login",
     element: <Login />,
   },
+  
+  {
+    path: '/yt',
+    element: <Yt />
+  },
+  {
+    path: '/login',
+    element: <Logins />
+  }
+  
 ]);
 
 export default router
